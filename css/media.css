@@ -1,0 +1,160 @@
+
+@media (min-width:992px) and (max-width:1199px){
+    .bannar h1 {
+        font-size: 50px !important;
+        
+    }
+    .navbar-light .navbar-nav .nav-link {
+        
+        font-size: 13px !important;
+    }
+    .footer p{
+        font-size: 25px;
+    }
+}
+@media (min-width:768px) and (max-width:991px){
+    .bannar h1 {
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+    .sp-3 {
+         margin-left:0px !important;
+        width: 100% !important;
+    }
+    .what_we_do{
+        background-size: 674px !important;
+     }
+     .sp {
+       
+        padding-top: 80px;
+    }
+    .language h2{
+        font-size: 20px;
+    }
+    .language a{
+        font-size: 16px;
+    }
+    .footer p{
+        font-size: 16px;
+        margin-left:0px !important;
+    }
+}
+@media (min-width:576px) and (max-width:767px){
+    .bannar h1 {
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+     .sp-3 {
+        margin-left:3% !important;
+    } 
+    .what_we_do{
+       background-size: 530px !important;
+    }
+    .another-section span {
+      
+        margin-top:10% !important;
+    }
+    .footer ul {
+        margin-top: -6%;
+    }
+    .footer p{
+        text-align: center;
+    }
+    .sp-2{
+        text-align: center !important;
+    }
+    .who_we_are{
+        text-align: center;
+    }
+    .language{
+        text-align: center;
+    }
+    .sp-1 {
+        margin-bottom: 36px;
+    }
+    .designation h1 {
+       
+        top: 60% !important;
+    }
+    .text h2{
+        font-size:16px !important;
+    }
+    .image-i {
+        position: absolute;
+        left: 45%;
+        top: 62% !important;
+        transform: translateX(-50%);
+        font-size: 18px !important;
+    }
+    .another-section h1 {
+        font-size: 20px !important;
+    }
+
+}
+
+
+@media (min-width:0px) and (max-width:575px){
+    .bannar h1 {
+        font-size: 40px !important;
+        text-align: center !important;
+    }
+    .text h2{
+        font-size:12px !important;
+    }
+    .image-i {
+        position: absolute;
+        left: 45%;
+        top: 62% !important;
+        transform: translateX(-50%);
+        font-size: 15px !important;
+    }
+
+    .sp-1 {
+            margin-bottom: 36px;
+        }
+        .contact h1 {
+            font-size: 29px;
+    }
+    .footer ul {
+        
+        margin-top: -24px;
+        margin-left: 42px !important;
+    }
+    .footer ul li{
+        font-size: 22px !important;
+    }
+    .footer p{
+        font-size: 16px !important;
+        margin-left: 0px !important;
+        text-align: center;
+    }
+    .sp-2{
+        text-align: center !important;
+    }
+    .logo {
+       width: 55%;
+    }
+    .sp-3 {
+        margin-left: -3% !important;
+        width: 62% !important;
+    }
+    .another-section span {
+        margin-left: 42%;
+        margin-top:20% !important;
+    }
+    .who_we_are{
+        text-align: center;
+    }
+    .language{
+        text-align: center;
+    }
+    .what_we_do {
+        background-image: url(../img/lawyer_pro.png4.png);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 500px !important;
+    }
+    .another-section h1 {
+        font-size: 16px !important;
+    }
+}

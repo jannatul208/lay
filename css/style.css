@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:Montserrat;
+}
+.navbar-light .navbar-nav .nav-link{
+    font-family:Montserrat;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 500;
+    color: #204f87 !important;
+    font-family: Montserrat;
+}
+
+.navbar-light .navbar-nav .nav-link:hover{
+    color: #051931 !important;
+}
+.bannar{
+    background: url(../img/bannar_pro.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+   min-height: 90vh;
+ 
+}
+.bannar h1{
+     font-size: 68px;
+     color: #fff;
+     font-weight: 500;
+     font-family: Montserrat;
+     
+     
+}
+.count{
+    align-items: center;
+    height: 100vh;
+    position: relative;
+}  
+.icon{
+color: rgb(243, 240, 240); 
+ position: absolute;
+ font-size: 44px;
+ left: 48%;
+ top: 90%;
+animation: dropdown 1s linear infinite;
+animation-direction: alternate;
+}
+
+@keyframes dropdown{
+    0%{
+        top: 90%;
+    }
+    50%{
+        top:95%
+    }
+    100%{
+        top: 100%;
+    }
+}
+.who_we_are{
+
+}
+.who_we_are span{
+     height: 5px;
+     width: 0;
+     display: inline-block;
+     background-color: #F2632B;
+     transition: .5s all ease-in-out;
+     opacity: 0;
+}
+.who_we_are:hover span{
+   
+    opacity: 1;
+    width: 50px;
+}
+.who_we_are h1{
+    text-transform: uppercase;
+    color: #2A3871;
+    font-size: 40px;
+    font-family:Montserrat;
+    
+}
+.who_we_are p{
+    color: grey;
+    
+}
+.what_we_do{
+ background-image: url(../img/lawyer_pro.png4.png);
+ background-position: right bottom;
+ background-repeat: no-repeat;
+ background-size: 940px;
+ padding-top:40px ;
+ padding-bottom:40px
+
+}
+
+.heading{
+    text-align: center;
+}
+.heading span{
+    height: 5px;
+    width: 0px;
+    display: inline-block;
+    background-color: #F2632B;
+    transition: .5s all ease-in-out;
+    opacity: 0;
+}
+.heading:hover span{
+    width: 50px;
+    opacity: 1;
+
+}
+.heading h1{
+    text-transform: uppercase;
+    color: #2A3871;
+    font-size: 40px;
+    text-align: center;
+    font-family:Montserrat;
+}
+.images{
+     position: relative;
+  
+}
+.images::before{
+    content: '';
+   position: absolute;
+   bottom: 0;
+   left: 0;
+   width:100%;
+   height:0;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#1e5799+0,211de5+50,1d57e0+100&0+0,1+50 */
+    background: -moz-linear-gradient(top,  rgba(30,87,153,0) 0%, rgba(33,29,229,1) 50%, rgba(29,87,224,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(30,87,153,0) 0%,rgba(33,29,229,1) 50%,rgba(29,87,224,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(30,87,153,0) 0%,rgba(33,29,229,1) 50%,rgba(29,87,224,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#001e5799', endColorstr='#1d57e0',GradientType=0 ); /* IE6-9 */
+
+   opacity: .5;
+   transition: .5s all ease-in-out;
+  
+}
+.images:hover::before{
+    height: 100%;
+    
+  
+}
+.text{ 
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    transform: translate(-30%, -40%);
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+.text h2{
+    font-weight: 600;
+    font-family:Montserrat;
+    text-transform: uppercase;
+     font-size: 22px;
+     text-align: center;
+    color: #fff;
+}
+
+.images:hover .text{
+   opacity: 1;
+    top: 30%;
+ 
+}
+.image-i {
+    position: absolute;
+    left: 45%;
+    top: 83%;
+    transform: translateX(-50%);
+    font-size: 27px;
+    color: #fff;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+.images:hover .image-i{
+    opacity: 1;
+    left: 50%;
+
+}
+
+.sp{
+
+}
+.another-section{
+ background-image: url(../img/lawyer_pro.png5.png);
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: cover;
+
+}
+.another-section span{
+    transition: .5s all ease-in-out;
+    width: 0px;
+    display:block;
+    height: 5px;
+    margin-top: 50%;
+    background-color: #f05a28;
+}
+.another-section h1{
+    font-size: 30px;
+    color: #fff;
+    text-transform: uppercase;
+}
+.another-section p{
+    color: #fff;
+    font-family:Montserrat;
+    font-size: 16px;
+}
+.another-section a{
+    color: #f05a28;
+    font-size: 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.another-section:hover span{
+    width: 50px;
+    
+
+}
+.designation h1{
+    position: absolute;
+    left: 21%;
+    top: 65%;
+    opacity: 0;
+    transition: .5s all ease-in-out;
+}
+.images:hover .designation h1{
+   opacity: 1;
+   top: 69%;
+}
+.sp-1{
+
+}
+.sp-2{
+
+}
+.logo{
+
+}
+.sp-3{
+    margin-left: 25%;
+    width: 66%;
+}
+.sp-4{
+    margin-top: 100px !important;
+}
+.sp-5{
+
+}
+/*
+
+.lawyer h3{
+   
+    text-transform: uppercase;
+     font-size: 25px;
+    color: #fff;
+}
+*/
+.language h2{
+ 
+ font-weight: 500;
+ margin-bottom: 30px;
+ text-transform: uppercase;
+ color: #28377e;
+}
+
+.language p{
+    font-size: 15px;
+color: gray;
+font-family:Montserrat;
+}
+.language:hover .heading span{
+    width: 50px;
+}
+.language a{
+  text-decoration: none;
+  color: #f05a28;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.contact{
+    background-color: #28377e;
+}
+
+form input{
+    caret-color: #fff;
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  border-bottom: 1px solid rgb(134, 132, 132) !important;
+}
+form input::placeholder{
+    color: #fff !important;
+}
+form input:focus{
+    box-shadow:none !important ;
+}
+form textarea{
+    caret-color: #fff;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    border-bottom: 1px solid rgb(134, 132, 132) !important;
+}
+form textarea::placeholder{
+    color: #fff !important;
+}
+form textarea:focus{
+    box-shadow: none !important;
+}
+form input[type="submit"]{
+    border: none !important;
+    border: 1px solid #f05a28 !important;
+    color: #fff;
+    padding: 10px 40px;
+    background: #f05a28 !important;
+    transition: .5s all ease-in-out !important;
+}
+form input[type="submit"]:hover{
+    background: transparent !important;
+}
+.contact h1{
+    color: #fff;
+    margin-bottom: 10%;
+}
+.footer{
+    background-color: rgb(2, 2, 26);
+
+}
+.footer p{
+    font-size: 18px;
+    margin-left: 127px;
+   color: rgb(141, 139, 137);
+}
+.footer ul{
+    margin-left: 97px;
+    list-style: none;
+    padding: 0;
+    display: flex;
+    
+   }
+   .footer ul li {
+     color: rgb(121, 109, 109);
+    font-size: 18px;
+    padding-left: 24px;
+      
+     
+   }
+   .footer ul li a{
+    color: rgb(121, 109, 109)  ;
+   }
+
+.footer  ul li i:hover{
+    color: rgb(253, 252, 252);
+
+    
+}
